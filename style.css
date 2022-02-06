@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Style*/
+body{
+	font:16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color:#333;
+	background-image: url(bg1.png);
+}
+.container{
+	width: 960px;
+	margin:auto;
+	background-color: #fff;
+}
+.header {
+	padding: 30px;
+	padding-bottom: 10px;
+}
+.header .judul{
+	font-size: 50px;
+	font-weight: bold;
+}
+.header ul li{
+	display: inline-block;
+	margin-top: 20px; 
+}
+.header a{
+	text-decoration: none;
+	color: lightseagreen;
+	margin-right: 1px;
+	padding-right: 5px;
+	border-right: 2px solid;
+	border-color: black;
+}
+.header a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+.hero {
+	height: 400px;
+	background-image: url(mountain.png);
+	background-size: cover;
+	background-position: 0 -50px;
+	border-top: 5px solid lightseagreen;
+	border-bottom: 5px solid salmon;
+	margin-bottom: 15px;
+}
+.main{
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+.main h2{
+	font-size: 32px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: -10px;
+	margin-left: 20px;
+}
+.main .penulis{
+	font-size: 14px;
+	margin-bottom: -10px;
+}
+.main .penulis a{
+	text-decoration: none;
+}
+.main .penulis a:hover{
+color: white;
+background-color: lightskyblue;
+}
+.main p{
+	padding: 20px;
+	text-align: justify;
+	text-indent: 20px;
+}
+
+
+.sidebar{
+	width: 300px;
+	float: right;
+}
+.sidebar h3{
+	font-weight: bold;
+	color: grey;
+	text-decoration: underline;
+}
+.sidebar img{
+	width: 70px;
+	float: left;
+	padding-right: 10px;
+}
+.sidebar p{
+	
+	font: 13px/20px sans-serif;
+	text-align: justify;
+	padding-right: 20px;
+	text-indent: 10px;
+	color: grey;
+}
+.ref{
+	width: 300px;
+	padding: 20px;
+	font: 16px/28px sans-serif;
+	float:right;
+	border: 2px solid black;
+}
+.ref ul li a{
+	color: grey;
+}
+.ref ul li a:hover{
+	color: skyblue;
+}
+
+
+
+.footer{
+	background-color: #333;
+	padding: 10px;
+}
+.footer .copy{
+	color: white;
+	text-align: center;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
